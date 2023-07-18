@@ -1,0 +1,462 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Jost';
+    font-style: normal;
+}
+
+.main {
+    background-image: url("../image/background_image.png");
+    max-width: 100%;
+    padding: 30px;
+    background-color: #058ACC;
+    background-blend-mode: multiply;
+    margin-bottom: 110px;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    padding: 0 80px;
+}
+
+.navbar {
+    margin-top: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-left: 70px;
+    color: white;
+}
+
+.business p {
+    color: white;
+    margin-left: 80px;
+    /* font-family: 'Jost';
+    font-style: normal; */
+    font-weight: 500;
+    font-size: 74px;
+    margin-bottom: 245px;
+}
+
+.start-now {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.start-now button {
+    /* font-family: 'Jost';
+    font-style: normal; */
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background: #CEA93A;
+    padding: 10px 46px;
+    border: none;
+    /* border-radius: 8px; */
+}
+
+.section-one {
+    display: flex;
+    padding: 0 80px;
+    margin-bottom: 134px;
+
+}
+
+.about-us h1 {
+    margin-bottom: 65px;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.para p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.2px;
+    text-align: justify;
+}
+
+.pic-rectangle {
+    margin-left: 141px;
+}
+
+.offering-section {
+    text-align: center;
+    margin: 0 70px;
+}
+
+.offering-section h1 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 69px;
+    letter-spacing: 0.2px;
+    margin-bottom: 30px;
+}
+
+.offering-section p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    margin-bottom: 89px;
+}
+
+.cards {
+    display: flex;
+    /* margin: 0 70px; */
+    /* text-align: center; */
+    /* background-color: black; */
+    justify-content: space-evenly;
+    padding: 90px;
+
+
+}
+
+.card1 {
+    background-color: rgba(162, 184, 193, 0.05);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* margin-right: 26px; */
+    width: 300px;
+    height: 300px;
+}
+
+.card2 {
+    background-color: rgba(162, 184, 193, 0.05);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* margin-right: 26px; */
+    width: 300px;
+    height: 300px;
+}
+
+.card3 {
+    background-color: rgba(162, 184, 193, 0.05);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* margin-right: 26px; */
+    width: 300px;
+    height: 300px;
+}
+
+.card4 {
+    background-color: rgba(162, 184, 193, 0.05);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* margin-right: 26px; */
+    width: 300px;
+    height: 300px;
+}
+
+.orange {
+    background-color: #EB7B37;
+    height: 18px;
+}
+
+.yellow {
+    background-color: #FAD606;
+    height: 18px;
+}
+
+.dark-golden {
+    background-color: #C6A136;
+    height: 18px;
+}
+
+.brown {
+    background-color: #A2B8C1;
+    height: 18px;
+}
+
+.card-content {
+    text-align: center;
+}
+
+.heading-card {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.para-card {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+.service button{
+    background-color:#0D89CA;
+    font-weight: 400;
+    margin-bottom: 118px;
+}
+.section-three img{
+    margin-bottom: 100px; 
+    width: 100%;
+}  
+.section-fourth .offering-section h1{
+    margin-bottom: 100px;
+}
+
+
+
+
+/************************* fifth section start from here ******************************/
+
+.section-fourth .offering-section p{
+    margin-bottom: -52px;
+}
+.section-fourth .card1{
+    width: 400px;
+    height: 500px;
+}
+.white-card{
+    height: 328px;
+    background-color: white;
+}
+.comma-stars{
+    display: flex;
+}
+.comma img{
+    width: 40px;
+    height: 40px;
+    margin-left:56px ;
+    margin-top: 31px;
+}
+.stars{
+    margin-left: 40px;
+}
+.stars img{
+    margin-top: 36px;
+    width: 30px;
+    height: 30px;
+}
+.first-para{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #001C27;
+    padding: 23px 50px;
+}
+.brown-card{
+    height: 172px;
+    background: #A2B8C1;
+    text-align: center;
+}
+.brown-card img{
+    position: relative;
+    bottom: 45px;
+    width: 100px;
+    height: 99.47px;
+}
+.brown-card p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: white;
+    position: relative;
+    bottom: 30px;
+}
+
+
+
+/************************* fifth section start from here ******************************/
+
+
+.ai-pics{
+     margin: 0 80px; 
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 72px;
+}
+.section-fifth h1{
+    margin-bottom: 88px;
+}
+.pic-one-card{
+    width: 618px;
+    height: 268px;
+    /* background: #FFFFFF; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.pic-two-card{
+    width: 618px;
+    height: 268px;
+    /* background: #FFFFFF; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.date-and-6-min{
+    display: flex;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #A88427;
+    justify-content: space-between;
+    margin: 0px 50px;
+    padding-top: 20px;
+    margin-bottom: 28px;
+}
+.content{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #081A2B;
+    margin: 0 57px;
+    margin-bottom: 47px;
+}
+.read-more{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+/* identical to box height */
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #081A2B;
+    border: 1px solid #FFFFFF;
+}
+.orange-card{
+    width: 618px;
+    height: 10px;
+    background: #EB7B37;
+}
+.yellow-card{
+    width: 618px;
+    height: 10px;
+    background: #FAD606;
+}
+.show-all {
+    text-align: center;
+    margin-bottom: 106px;
+
+} 
+
+ .show-all button {
+    font-family: 'Jost';
+    font-style: normal;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    background: white;
+    padding: 10px 46px;
+    border: 1px solid #0D89CA;
+}  
+
+
+
+/************************* sixth section start from here ******************************/
+
+.card-contact-us{
+    width: 453px;
+    height: 669px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    padding: 0px 50px;
+}
+.contact-us{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+input[type=text ], [type=email] {
+    width: 353px;
+    height: 54px;
+    background: #F5F5F5;
+    border: 1px solid #E8E8E8;  
+    margin-bottom: 45px;
+    padding-left: 20px;
+}
+textarea{
+    width: 353px;
+    height: 193px;
+    background: #F5F5F5;
+    border: 1px solid #E8E8E8;  
+    margin-bottom: 45px;
+    padding-top: 23px;
+    padding-left: 20px;
+    margin-bottom: 47px;
+}
+.send-button button{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+    width: 145px;
+    height: 56px;
+    border: none;
+    background: #0D89CA;
+}
+.send-button{
+    text-align: left;
+   /* margin-left: 39px;  */
+    /* margin-bottom: 52px;  */
+}
+.card-location-mobile-email{
+    display: flex;
+    margin-bottom: 100px;
+}
+.location-mobile-email{
+    display: flex;
+    padding-left: 60px;
+    justify-content: space-between; 
+    padding-right: 100px;  
+}
+.map-screen{
+    width: 700px;
+    height: 323px;
+    padding: 60px 0px;
+    padding-left: 138px;
+}
+.loc-mob-email img{
+    width: 30px;
+    height: 30px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+
+}
+.loc-mob-email h6{
+    width: 276px;
+    height: 46px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1px;
+}
+.twitter-facebook-linkedin{
+    /* width: 32px; */
+    /* height: 32px; */
+    text-align: left;
+    padding-left: 74px;
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+}
+
+
+/************************* Footer ******************************/
+footer{
+    height: 62px;
+    color: white;
+    background: rgba(0, 28, 39, 0.75);
+    display: flex;
+    padding: 0px 500px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
